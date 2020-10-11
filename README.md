@@ -28,13 +28,25 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. What is the DOM?
 
+The DOM is the global javascript object of a webpage. It contains all the elments of the page, hierarchy and methods. Through the DOM we can manipulate what is shown on the screen.
+
 2. What is an event?
+
+An event is a user interaction with a webpage.
 
 3. What is an event listener?
 
+An event listener, essentially listens or monitors for when a specific user interaction occurs. By using event listeners we are then able manipulate the DOM when the event occurs.
+
 4. Why would we convert a NodeList into an Array?
 
+A NodeList is an array-like object but it is not a true array. It does not have access to .reduce or .map or other array methods.
+
+We can convert a NodeList to an array by using "Array.form(nodelist)" and then get access to all the array methods.
+
 5. What is a component?
+
+A component is a reusable piece of code that can be used to build different elements and styles. The idea is to keep our code DRY.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
@@ -84,6 +96,6 @@ After finishing your required elements, you can push your work further. These go
 
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge `<firstName-lastName>` Branch into `main` branch (student's  Repo). **Please don't merge your own pull request**
+- [ ] Submit a Pull-Request to merge `<firstName-lastName>` Branch into `main` branch (student's Repo). **Please don't merge your own pull request**
 - [ ] Add your team lead as a reviewer on the pull-request
 - [ ] Your team lead will count the project as complete after receiving your pull-request
