@@ -23,7 +23,7 @@
 
 //For Inspecting
 // axios.get("https://lambda-times-api.herokuapp.com/articles")
-// .then(({data}) => console.log(data.articles.bootstrap))
+// .then(({data}) => console.log(data.articles))
 // .catch((err) => console.log(err))
 
 
